@@ -79,7 +79,7 @@ body {
 	text-align: center;
 	width: 960px;
 	margin: 0 auto;
-	font-family: 'Open Sans', 'sans-serif';
+	font-family: 'Asap', sans-serif;
   	color: #083452;
   	font-size: 15px;
   	margin-top: 5px;
@@ -104,26 +104,6 @@ body {
 	margin: 5px;
 	padding: 5px;
 	display: inline-block;
-}
-
-.line-break {
-	width: 100%;
-	border: 1px solid black;
-	position: absolute;
-}
-
-.more-posts {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
-	display: inline-block;
-}
-
-.more-posts-img {
-	float: left;
-	display: inline-block;
-	width: 325px;
-	height: 330px;
 }
 
 .byline {
@@ -165,10 +145,10 @@ body {
 
 .author-name {
 	font-family: 'Open Sans', 'sans-serif';
-	font-size: 85%;
+	font-size: 100%;
 	color: #106db3;
 	text-transform: uppercase;
-	text-align: center;
+	/*text-align: center;*/
 	display: inline-block;
 	position: relative;
 	top: 80px;
@@ -177,17 +157,18 @@ body {
 
 .author-social {
 	font-family: 'Open Sans', 'sans-serif';
-	font-size: 85%;
-	color: red;
+	font-size: 90%;
+	color: #bac6cf;
 	display: inline-block;
 	position: relative;
-	top: 48px;
+	top: 52px;
 	text-align: center;
+	right: 18px;
 }
 
 .ad-space {
 	position: relative;
-	padding-top: 85px;
+	padding-top: 130px;
 	padding-left: 20px;
 }
 
@@ -301,7 +282,36 @@ h6 {
 	text-transform: uppercase;
 }
 
+.line-break {
+	width: 100%;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.more-posts {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.more-posts-img {
+	/*position: relative;
+	width: 100%;
+	height: 330px;*/
+	height: 300px;
+	float: left;
+	width: 25%;
+}
+
+.more-imgs {
+	width: 100%;
+	height: 300px;
+	display: inline-block;
+}
+
 footer {
+  clear: both;
   outline-stylebottom: 0;
   left: 0;
   height: 97px;
