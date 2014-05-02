@@ -366,9 +366,10 @@ h6 {
 	font-size: 30px;
 	color: #083452;
 	text-transform: uppercase;
-	padding-top: 260px;
+	position: absolute;
 	line-height: 30px;
 	padding-left: 19px;
+	bottom: 20px;
 }
 
 .more-posts-type:hover {
@@ -386,11 +387,17 @@ h6 {
 	height: 300px;
 	background: rgba(17,117,192,0.75);
 	width: 100%;
+	position: relative;
 }
 
 .one-overlay:hover {
 	background: transparent;
+	/*position: relative;*/
+}
+
+.one-overlay:hover .more-posts-type {
 	color: white;
+	/*position: relative;*/
 }
 
 .two {
@@ -404,11 +411,18 @@ h6 {
 	height: 300px;
 	background: rgba(17,117,192,0.75);
 	width: 100%;
+	position: relative;
 }
 
 .two-overlay:hover {
 	background: transparent;
-	color: #fff;
+	color: white;
+	/*position: relative;*/
+}
+
+.two-overlay:hover .more-posts-type {
+	color: white;
+	/*position: relative;*/
 }
 
 .three {
@@ -422,11 +436,18 @@ h6 {
 	height: 300px;
 	background: rgba(17,117,192,0.75);
 	width: 100%;
+	position: relative;
 }
 
 .three-overlay:hover {
 	background: transparent;
-	color: #fff;
+	color: white;
+	/*position: relative;*/
+}
+
+.three-overlay:hover .more-posts-type {
+	color: white;
+	/*position: relative;*/
 }
 
 .four {
@@ -440,11 +461,18 @@ h6 {
 	height: 300px;
 	background: rgba(17,117,192,0.75);
 	width: 100%;
+	position: relative;
 }
 
 .four-overlay:hover {
 	background: transparent;
-	color: #fff;
+	color: white;
+	/*position: relative;*/
+}
+
+.four-overlay:hover .more-posts-type {
+	color: white;
+	/*position: relative;*/
 }
 
 footer {
