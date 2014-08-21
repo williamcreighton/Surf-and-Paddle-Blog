@@ -9,7 +9,6 @@ body {
 
 .header	{
 	background-image: url("images/header-image-surfer.jpg");
-	/*position: absolute;*/
 	top: 0;
 	left: 0;
 	height: 523px;
@@ -41,7 +40,6 @@ body {
 }
 
 .nav-bar-logo {
-  /*float: left;*/
   text-transform: uppercase;
   font-family: 'Open Sans', 'sans-serif';
   color: #083452;
@@ -88,9 +86,9 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	font-family: 'Asap', sans-serif;
-  	color: #083452;
-  	font-size: 15px;
-  	margin-top: 5px;
+	color: #083452;
+	font-size: 15px;
+	margin-top: 5px;
 }
 
 .column-two-thirds {
@@ -111,7 +109,6 @@ body {
 
 .byline {
 	height: 22px;
-	/*margin-top: -60px;*/	
 	padding-bottom: 30px;
 	display: inline-block;
 }
@@ -202,7 +199,6 @@ body {
 	font-size: 100%;
 	color: #106db3;
 	text-transform: uppercase;
-	/*text-align: center;*/
 	display: inline-block;
 	position: relative;
 	top: 80px;
